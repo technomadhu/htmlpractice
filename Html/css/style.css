@@ -1,0 +1,48 @@
+*{margin:0; padding:0;}
+body{ font-family: 'HVDFontsBrandonTextRegular';}
+ul,li,a{list-style-type:none; text-decoration:none;}
+.define_float{float:left; width:100%;}
+body a:hover{text-decoration:none;}
+@font-face {
+    font-family: 'HVDFontsBrandonTextRegular';
+    src: url('HVDFontsBrandonTextRegular.eot');
+    src: url('HVDFontsBrandonTextRegular.eot') format('embedded-opentype'),
+         url('HVDFontsBrandonTextRegular.woff2') format('woff2'),
+         url('HVDFontsBrandonTextRegular.woff') format('woff'),
+         url('HVDFontsBrandonTextRegular.ttf') format('truetype'),
+         url('HVDFontsBrandonTextRegular.svg#HVDFontsBrandonTextRegular') format('svg');
+}
+@font-face {
+    font-family: 'BrandonTextBold';
+    src: url('BrandonTextBold.eot');
+    src: url('BrandonTextBold.eot') format('embedded-opentype'),
+         url('BrandonTextBold.woff2') format('woff2'),
+         url('BrandonTextBold.woff') format('woff'),
+         url('BrandonTextBold.ttf') format('truetype'),
+         url('BrandonTextBold.svg#BrandonTextBold') format('svg');
+}
+
+header{background:#fff; padding:12px 0;}
+.logo_main{float:none; display:inline-block;}
+.coming_soon{position:relative;}
+.coming_soon > img{float:left; width:100%;}
+div.coming_inner{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);}
+.coming_inner_dtl{background: rgba(21,22,24,0.95); padding:85px 77px;}
+.coming_inner_dtl h2{font-size: 38px;color: #FFFFFF;letter-spacing: 1px;text-align: center;line-height: 56px; margin:0 0 25px 0;float:left; width:100%;}
+.coming_inner_dtl p{color: #C4C4C4;letter-spacing: 0;text-align: center;line-height: 20px;float:left; width:100%; margin:0 0 25px 0;}
+
+.input_fld_otr input{font-size: 15px;color: rgba(255,255,255,0.60);letter-spacing: 0;text-align: center; padding:0 0 13px 0;border:none;border-bottom: 1px solid rgba(255,255,255,0.30); background:none; display:inline-block; width:70%;}
+.input_fld_otr input:focus{outline:none; border-color:rgba(255,255,255,0.60);}
+.submit_button{margin:24px 0 0 0;}
+.submit_button a{font-size: 12px;color: #979797;letter-spacing: 1.2px; display:inline-block; text-transform:uppercase;font-family: 'BrandonTextBold';}
+.submit_button a:hover{color:#fff;}
+.submit_button a:hover img{filter:brightness(0) invert(1);}
+.submit_button a img{width:auto; margin:0px 0 0 8px;display:inline-block;}
+
+.social_thankyou{margin:7px 0 0 0;}
+.social_thankyou ul{float:left; width:100%;margin:0; padding:0; text-align:center;}
+.social_thankyou ul li{float:none; display:inline-block; width:auto;margin:0 20px 0 0; padding:0;}
+.social_thankyou ul li:last-child{margin:0;}
+.social_thankyou ul li a{float:left; width:auto;}
+
+
